@@ -1,0 +1,4 @@
+{"op": "U", "customer_id": "C0001", "name": "Customer 1", "email": "c1@example.com", "state": "NV", "updated_at": "2026-01-02T01:00:00"}
+{"op": "D", "customer_id": "C0002", "name": "Customer 2", "email": "c2@example.com", "state": "TX", "updated_at": "2026-01-02T02:00:00"}
+{"op": "U", "customer_id": "C0003", "name": "Customer 3", "email": "c3@example.com", "state": "WA", "updated_at": "2026-01-02T03:00:00"}
+{"op": "I", "customer_id": "C9999", "name": "Customer 9999", "email": "c9999@example.com", "state": "OR", "updated_at": "2026-01-02T04:00:00"}
