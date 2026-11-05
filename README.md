@@ -1,5 +1,7 @@
 # spark-medallion-lakehouse
 
+[![ci](https://github.com/svangala885-sv/spark-medallion-lakehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/svangala885-sv/spark-medallion-lakehouse/actions/workflows/ci.yml) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Data: synthetic](https://img.shields.io/badge/data-synthetic-lightgrey.svg)
+
 A PySpark Bronze / Silver / Gold pipeline that handles the parts of lakehouse work that usually go wrong in production: **replayed files, late and corrected records, invalid rows, customer changes over time (SCD Type 2 from CDC events), deletes, and facts that must join to the dimension version that was valid when the event happened.**
 
 > **Portfolio note.** An independently written, representative project using generated synthetic data. It is not code from, and does not describe the systems of, any employer or client.
